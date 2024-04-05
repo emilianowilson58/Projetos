@@ -1,0 +1,33 @@
+@import url(/font/idroid.otf);
+@font-face {
+    font-family: 'Jaime';
+    src: url(font/idroid.otf);
+    font-weight: bold;
+}
+
+body{
+    background-image: url(img/espaco.jpg);/*Chamar a imagem*/
+    background-attachment: fixed; /*para manter a imagem fixa e não rolar quando o conteúdo for muito grande*/
+    background-repeat: no-repeat; /*para não repetir a imagem e manter só uma*/
+    background-size: cover; /*para a imagem ficar de bom tamanho na tela*/
+    background-position: center center; /*para meter a imagem ao centro*/
+}
+h2{
+    color: rgb(255, 255, 255);
+    font-size: small;
+    font-family: jaime;
+
+}
+
+img{
+    width: 50%;
+    height: 50%;
+    display: block;
+    left: 20%;
+    top: 10%;
+    right: 20%;
+    bottom: 20%;
+    position: fixed;
+    margin: auto;
+    max-width: 350px;
+ }

@@ -1,0 +1,64 @@
+
+@font-face{
+    font-family: 'jaime';
+    src: url(font/idroid.otf) format('opentype');
+    font-weight: normal;}
+
+body{
+    background-image: linear-gradient(to right, #000000   80%, hsl(236, 81%, 15%));
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+h1{
+    color: rgb(47, 0, 255);
+    padding-top: 40px;
+    font-size: 30px;
+    font-family: jaime;
+    padding-bottom: 30px;
+}
+
+p{
+    color: rgb(47, 0, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input{
+    background-color: rgba(137, 43, 226, 0);
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 10px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-color: blue;
+    width: 200px;
+    
+}
+
+.envi{
+    background-color: rgba(12, 36, 173, 0.726);
+    color: rgb(0, 0, 0) ;
+}
+.Conta a{
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+}
+.Conta a:hover{
+    text-decoration: underline;
+    color: rgb(47, 0, 255);
+}
+
+aside{
+    text-align: center;
+    margin: auto;
+}
+
+img{
+    height: 350px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
